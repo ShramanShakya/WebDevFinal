@@ -2,13 +2,13 @@
 
 ## Student Information
 
-- **Student Name:** <your name>
-- **Student ID:** <your id>
+- **Student Name:** Shraman Shakya
+- **Student ID:** 6712145
 
 ## Deployed URLs / Repositories
 
-- Frontend: <https://your-frontend.vercel.app> — repo: <link>
-- Backend: <https://your-backend.vercel.app> — repo: <link>
+- Frontend: <https://web-dev-final-yvtk.vercel.app> — repo: <https://github.com/ShramanShakya/WebDevFinal> (folder `react-frontend/`)
+- Backend: <https://web-dev-final-eta.vercel.app> — repo: <https://github.com/ShramanShakya/WebDevFinal> (folder `next-backend/`)
 - Screen recording: <link>
 
 ## Test Credentials
