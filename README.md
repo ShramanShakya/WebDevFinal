@@ -9,7 +9,7 @@
 
 - Frontend: <https://web-dev-final-yvtk.vercel.app> — repo: <https://github.com/ShramanShakya/WebDevFinal> (folder `react-frontend/`)
 - Backend: <https://web-dev-final-eta.vercel.app> — repo: <https://github.com/ShramanShakya/WebDevFinal> (folder `next-backend/`)
-- Screen recording: <link>
+- Screen recording: <https://assumptionuniversity-my.sharepoint.com/:v:/g/personal/u6712145_au_edu/IQCtujzRU6ojQZoCwGMJO8suAegvmy2IEu1RS-HWUeYiMjE>
 
 ## Test Credentials
 
@@ -48,7 +48,7 @@ Environment variables (also set these in Vercel → Project → Settings → Env
 | `MONGODB_URI`  | `mongodb+srv://...`              | Atlas connection string                  |
 | `MONGODB_DB`   | `online_course`                  | optional, defaults to `online_course`    |
 | `JWT_SECRET`   | long random string               |                                          |
-| `FRONTEND_URL` | `https://your-frontend.vercel.app` | CORS origin, no trailing slash. Local: `http://localhost:5173` |
+| `FRONTEND_URL` | `https://your-frontend.vercel.app` | CORS origin, no trailing slash. Local: `http://localhost:5174` |
 
 ### 2. Frontend Setup (`react-frontend/`)
 
@@ -56,7 +56,7 @@ Environment variables (also set these in Vercel → Project → Settings → Env
 cd react-frontend
 npm install
 cp .env.example .env           # VITE_API_URL=http://localhost:3000
-npm run dev                    # http://localhost:5173
+npm run dev                    # http://localhost:5174
 ```
 
 On Vercel set `VITE_API_URL` to the deployed backend URL (no trailing slash), and set each project's **Root Directory** to `next-backend` / `react-frontend`.
